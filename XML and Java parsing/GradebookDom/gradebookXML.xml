@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<course courseName="cis445">
+<Assignments>
+
+<Assignment assignmentID = "01">
+	<description>assignment 1: underwater basket weaving </description>
+	<maxScore>100</maxScore>
+</Assignment>
+
+<Assignment assignmentID = "02">
+	<description>assignment 2: interdemenional math</description>
+	<maxScore>100</maxScore>
+</Assignment>
+
+<Assignment assignmentID = "03">
+	<description>assignment 3: Social studies</description>
+	<maxScore>100</maxScore>
+</Assignment>
+
+</Assignments>
+
+<students>
+
+<student stuID = "237649">>
+	<fname> Stewie </fname>
+	<lname> Griffin </lname>
+	<grades>
+				<grade assignmentID="1">
+                    <score>75</score>
+                </grade>
+                <grade assignmentID="2">
+                    <score>64</score>
+                </grade>
+                <grade assignmentID="3">
+                    <score>100</score>
+                </grade>
+			</grades>
+</student>	
+<student stuID = "556762">>
+	<fname> Rick </fname>
+	<lname> Sanchez </lname>
+	<grades>
+				<grade assignmentID="1">
+                    <score>100</score>
+                </grade>
+                <grade assignmentID="2">
+                    <score>100</score>
+                </grade>
+                <grade assignmentID="3">
+                    <score>75</score>
+                </grade>
+			</grades>
+	
+</student>
+<student stuID = "198521">>	
+	<fname> Eric </fname>
+	<lname> Cartman </lname>
+	<grades>
+				<grade assignmentID="1">
+                    <score>70</score>
+                </grade>
+                <grade assignmentID="2">
+                    <score>60</score>
+                </grade>
+                <grade assignmentID="3">
+                    <score>95</score>
+                </grade>
+			</grades>
+</student>
+</students>
+</course>
